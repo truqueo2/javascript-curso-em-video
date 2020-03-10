@@ -5,29 +5,29 @@
 Para declarar a variável é só usar as palavras reservadas **var**, **let** ou **const**.
 
 **Identificadores**:
-*Podem começar com **letra**, **$** ou **_**
-*Não podem começar com **números**
-*É possível usar **letras** ou **números**
-*É possível usar **acentos** e **símbolos**
-*Não podem conter **espaços**
-*Não podem ser **palavras reservadas**
-
+&nbsp;*Podem começar com **letra**, **$** ou **_**
+&nbsp;*Não podem começar com **números**
+&nbsp;*É possível usar **letras** ou **números**
+&nbsp;*É possível usar **acentos** e **símbolos**
+&nbsp;*Não podem conter **espaços**
+&nbsp;*Não podem ser **palavras reservadas**
+&nbsp;
 **Tipos Primitivos**:
-*number
-**Infinity
-**NaN
-*string
-*boolean
-*null
-*undefined
-*objetct
-**Array
-*function
+&nbsp;*number
+&nbsp;**Infinity
+&nbsp;**NaN
+&nbsp;*string
+&nbsp;*boolean
+&nbsp;*null
+&nbsp;*undefined
+&nbsp;*objetct
+&nbsp;**Array
+&nbsp;*function
 
 Para saber o tipo primitivo é só usar o comando **typeof** e o nome da variável ou declaração literal.
 
 ex:
-var n = 20
+&nbsp;var n = 20
 
-typeof n 
-typeof 20
+&nbsp;typeof n 
+&nbsp;typeof 20
