@@ -5,9 +5,12 @@
 Para declarar a variável é só usar as palavras reservadas **var**, **let** ou **const**.
 
 **Identificadores**:
-&nbsp;*Podem começar com **letra**, **$** ou **_**
-&nbsp;*Não podem começar com **números**
-&nbsp;*É possível usar **letras** ou **números**
+&nbsp;
+*Podem começar com **letra**, **$** ou **_**
+&nbsp;
+*Não podem começar com **números**
+&nbsp;
+*É possível usar **letras** ou **números**
 &nbsp;*É possível usar **acentos** e **símbolos**
 &nbsp;*Não podem conter **espaços**
 &nbsp;*Não podem ser **palavras reservadas**
