@@ -30,8 +30,8 @@ ex:
 ```js
 var n = 20  
 
-typeof n  
-typeof 20  
+typeof n //number  
+typeof 20  //number  
 ```
 
 ## String
