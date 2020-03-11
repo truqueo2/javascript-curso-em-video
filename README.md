@@ -56,3 +56,16 @@ Formatando string:
     nome.toUpperCase() // tudo maiusculo
     nome.toLowerCase() // tudo minusculo
 ```
+## Number
+
+Pode ser **inteiro** ou **ponto flutuante**.
+
+Formatando number:  
+```js
+var n1 = 1543.5
+n1.toFixed(2) //fixa duas casas decimais.
+n1.toFixed(2).replace('.',',') //replace troca algo por outro, no caso o ponto pela vírgula.
+
+n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'}) // neste exemplo formata no formato de real.
+
+```
