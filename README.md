@@ -32,5 +32,6 @@ var n = 20
 
 typeof n  
 typeof 20  
-```
+``` javascript
+
 ## String
