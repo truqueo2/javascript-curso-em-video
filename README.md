@@ -44,11 +44,15 @@ var sexo = `masculino` //usando crase, chamado de template string
 
 Formatando string:
 ```js
-var nome = 'Jhonny'
-var sobrenome = "Oliveira"
-var sexo = `masculino`
+    var nome = 'Jhonny'
+    var sobrenome = "Oliveira"
+    var sexo = `masculino`
 
-document.write('O meu nome é ' + nome + ' ' + sobrenome + ' e sou do sexo ' + sexo) // concatenação
-document.write("O meu nome é " + nome + " " + sobrenome + " e sou do sexo " + sexo) // concatenação
-document.write(`O meu nome é ${nome} ${sobrenome} e sou do sexo ${sexo}`) // template string
+    document.write('O meu nome é ' + nome + ' ' + sobrenome + ' e sou do sexo ' + sexo) // concatenação
+    document.write("O meu nome é " + nome + " " + sobrenome + " e sou do sexo " + sexo) // concatenação
+    document.write(`O meu nome é ${nome} ${sobrenome} e sou do sexo ${sexo}`) // template string
+
+    nome.length // tamnho da string
+    nome.toUpperCase() // tudo maisculo
+    nome.toLowerCase() // tudo minusculo
 ```
