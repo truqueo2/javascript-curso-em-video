@@ -53,6 +53,6 @@ Formatando string:
     document.write(`O meu nome é ${nome} ${sobrenome} e sou do sexo ${sexo}`) // template string
 
     nome.length // tamnho da string
-    nome.toUpperCase() // tudo maisculo
+    nome.toUpperCase() // tudo maiusculo
     nome.toLowerCase() // tudo minusculo
 ```
