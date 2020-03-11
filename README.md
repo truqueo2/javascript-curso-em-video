@@ -101,12 +101,15 @@ Converter number para string:
     x % y   // resto da divisão
     x ** y  // potenciação
 
-```
+
+/* 
 Ordem de Precedência:  
-1. ()  
+1. ( )  
 2. **  
 3. * / %  
 4. + -  
+*/ 
+```
 
 ### Atribuição
 
@@ -139,14 +142,42 @@ Incremento e Decremento
 n++  
 n--
 
-### Relacionais
+### Relacionais  
 
+Sempre retorna um valor boolean **true** ou **false**.  
+```js
+> //maior
+< //menor
+>= //maio ou igual
+<= //menor ou igual
+== //igual, não compara o tipo do valor.
+!= //diferente
 
+=== //identidade ou igualdade restrita, ele compara o tipo do valor.
+!== //desigualdade restrita, verifica tambem se o tipo do valor são diferentes
+```
 
 ### Lógicos
 
+Sempre retorna um valor boolean **true** ou **false**.  
+```js
+! //negação (não)
+&& //disjunção (e)
+|| //conjunção (ou)
+```
 
+**Precedencia dos operadores:**  
+*Primeiro os aritméticos
+*Segundo de comparações
+*Terceiros os lógicos e entre os lógicos vem primeiro a **negação**, depois **disjunção** e por último a **conjunção**.
 
 ### Ternário
+```js
+var media = 9.0
+//composto por 3 partes
 
+// teste ? true : false
+media >= 7.0 ? "Aprovado" : "Reprovado"
+
+```
 
