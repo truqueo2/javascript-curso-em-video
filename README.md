@@ -27,11 +27,11 @@ Para declarar a variável é só usar as palavras reservadas **var**, **let** ou
 Para saber o tipo primitivo é só usar o comando **typeof** e o nome da variável ou declaração literal.
 
 ex:  
-```
+```js
 var n = 20  
 
 typeof n  
 typeof 20  
-``` javascript
+```
 
 ## String
