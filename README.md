@@ -35,3 +35,20 @@ typeof 20  //number
 ```
 
 ## String
+
+```js
+var nome = 'Jhonny' //usando aspas simples
+var sobrenome = "Oliveira" //usando aspas dupla
+var sexo = `masculino` //usando crase, chamado de template string
+```
+
+Formatando string:
+```js
+var nome = 'Jhonny'
+var sobrenome = "Oliveira"
+var sexo = `masculino`
+
+document.write('O meu nome é ' + nome + ' ' + sobrenome + ' e sou do sexo ' + sexo) // concatenação
+document.write("O meu nome é " + nome + " " + sobrenome + " e sou do sexo " + sexo) // concatenação
+document.write(`O meu nome é ${nome} ${sobrenome} e sou do sexo ${sexo}`) // template string
+```
