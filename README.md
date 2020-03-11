@@ -42,7 +42,7 @@ var sobrenome = "Oliveira" //usando aspas dupla
 var sexo = `masculino` //usando crase, chamado de template string
 ```
 
-Formatando string:
+**Formatando string**:
 ```js
     var nome = 'Jhonny'
     var sobrenome = "Oliveira"
@@ -56,11 +56,20 @@ Formatando string:
     nome.toUpperCase() // tudo maiusculo
     nome.toLowerCase() // tudo minusculo
 ```
+Converter string para number:  
+```js
+    var n = prompt('Digite um numero: ')
+
+    Number.parseInt(n) //converte a string para inteiro
+    Number.parseFloat(n) //converte a string para ponto flutuante
+    Number(n) //converte a string automaticamente para inteiro ou float
+```
+
 ## Number
 
 Pode ser **inteiro** ou **ponto flutuante**.
 
-Formatando number:  
+**Formatando number**:  
 ```js
 var n1 = 1543.5
 n1.toFixed(2) //fixa duas casas decimais.
@@ -69,3 +78,75 @@ n1.toFixed(2).replace('.',',') //replace troca algo por outro, no caso o ponto p
 n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'}) // neste exemplo formata no formato de real.
 
 ```
+
+Converter number para string:  
+```js
+    var n = prompt('Digite um numero: ')
+
+    String(n)
+    n.toString()
+```
+
+## Operadores
+
+### Aritméticos  
+```js
+    var x = 5
+    var y = 3
+
+    x + y   // soma
+    x - y   // subtração
+    x * y   // multiplicação
+    x / y   // divisão
+    x % y   // resto da divisão
+    x ** y  // potenciação
+
+```
+Ordem de Precedência:  
+1. ()  
+2. **  
+3. * / %  
+4. + -  
+
+### Atribuição
+
+**Atribuição Simples** é representada pelo sinal de igual.  
+```js
+var a = 5 + 3           //8
+var b = a % 5           //8
+var c = 5 * b ** 2      //45
+var d = 10 - a / 2      //6
+var e = 6 * 2 / d       //2
+var f = b % e + 4 / e   //3 
+```
+
+**Auto-atribuição** é atribuir o valor com o valor dela mesmo e armazena na própria váriavel. Ex:  
+```js
+    var x = 5;
+    var y = 3;
+
+    //forma simplificada        // auto-atribuição
+    x += y;                     // x = x + y; soma
+    x -= y;                     // x = x - y; subtração
+    x *= y;                     // x = x * y; multiplicação
+    x /= y;                     // x = x / y; divisão
+    x %= y;                     // x = x % y; resto da divisão
+    x **= y;                    // x = x ** y; potenciação
+
+```
+Incremento e Decremento  
+
+n++  
+n--
+
+### Relacionais
+
+
+
+### Lógicos
+
+
+
+### Ternário
+
+
