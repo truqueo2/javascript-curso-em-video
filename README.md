@@ -179,5 +179,7 @@ var media = 9.0
 // teste ? true : false
 media >= 7.0 ? "Aprovado" : "Reprovado"
 
+//a variável pode receber o valor do teste ternário
+var res = media >= 7.0 ? "Aprovado" : "Reprovado"
 ```
 
