@@ -4,18 +4,15 @@
 
 Para declarar a variável é só usar as palavras reservadas **var**, **let** ou **const**.
 
-**Identificadores**:
+**Identificadores**:  
+*Podem começar com **letra**, **$** ou **_**  
+*Não podem começar com **números**  
+*É possível usar **letras** ou **números**  
+*É possível usar **acentos** e **símbolos**  
+*Não podem conter **espaços**  
+*Não podem ser **palavras reservadas**  
 
-*Podem começar com **letra**, **$** ou **_**
-
-*Não podem começar com **números**
-
-*É possível usar **letras** ou **números**
-*É possível usar **acentos** e **símbolos**
-*Não podem conter **espaços**
-*Não podem ser **palavras reservadas**
-
-**Tipos Primitivos**:
+**Tipos Primitivos**:  
 *number  
 **Infinity  
 **NaN  
@@ -30,7 +27,10 @@ Para declarar a variável é só usar as palavras reservadas **var**, **let** ou
 Para saber o tipo primitivo é só usar o comando **typeof** e o nome da variável ou declaração literal.
 
 ex:  
+```
 var n = 20  
 
 typeof n  
 typeof 20  
+```
+## String
